@@ -1,18 +1,3 @@
-/*!*************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
-  \*************************************************************************************************************************************/
-#main > h1 {
-  border: 4px solid purple;
-  padding: 20px;
-}
+#main>h1{border:4px solid purple;padding:20px}#canvas{position:absolute;background:#000;top:0;left:0}#main{color:purple}
 
-#canvas {
-  position: absolute;
-  background: black;
-  top: 0;
-  left: 0;
-}
-
-#main {
-  color: purple;
-}
+/*# sourceMappingURL=main.css.map*/
