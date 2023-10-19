@@ -20,7 +20,7 @@ class Drawer {
         this.canvas.width = window.innerWidth;
         this.canvas.height = window.innerHeight;
         // this.canvas.addEventListener('click', this.handleCanvasClick.bind(this));
-        // this.canvas.addEventListener('mousemove', this.handleMouseMove.bind(this));
+        this.canvas.addEventListener('mousemove', this.handleMouseMove.bind(this));
         this.animate();
     }
 
@@ -41,7 +41,7 @@ class Drawer {
     handleMouseMove(e) {
         this.mouse.x = e.x;
         this.mouse.y = e.y;
-        this.drawCircle();
+        // this.drawCircle();
     }
 
     animate() {
